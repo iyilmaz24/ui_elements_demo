@@ -1,9 +1,11 @@
 
+
 const menuInnerHTML = `<div id="button-div">
 <button>Cart</button>
 <button>Saved</button>
 <button>Settings</button>
 </div>`;
+
 
 function createDropDown() {
     const dropDownDiv = document.getElementById("drop-down-div");
@@ -12,6 +14,7 @@ function createDropDown() {
     menu.innerHTML = menuInnerHTML;
     dropDownDiv.appendChild(menu);
 }
+
 
 function toggleDropDown() {
     

@@ -1,0 +1,77 @@
+
+
+#slider-parent
+{
+    width: 100vw;
+    height: 30vh;
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#slider-content
+{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    > div
+    {
+        border: 0.1rem solid black;
+        height: 75%;
+        width: 20%;
+    }
+}
+
+
+#slider-buttons
+{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+}
+
+
+/* the file paths to the images */
+
+.image0 {
+    background: url('./coffee-images/coffee-img.webp');
+}
+.image1 {
+    background: url('./coffee-images/coffee-img2.jpeg');    
+}
+.image2 {
+    background: url('./coffee-images/coffee-img3.png');    
+}
+.image3 {
+    background: url('./coffee-images/coffee-img4.jpeg');    
+}
+.image4 {
+    background: url('./coffee-images/coffee-img5.webp');    
+}
+.image5 {
+    background: url('./coffee-images/coffee-img6.jpeg');    
+}
+.image6 {
+    background: url('./coffee-images/coffee-img7.webp');    
+}
+.image7 {
+    background: url('./coffee-images/coffee-img8.webp');    
+}
+
+
+/* make image fit inside the display box */
+
+.image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8
+{
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+

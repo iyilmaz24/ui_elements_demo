@@ -1,0 +1,53 @@
+
+
+#drop-down-div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+}
+
+
+#drop-down-button
+{
+    width: 8vw;
+    height: 4vh;
+    text-align: center;
+}
+
+
+#drop-down-menu
+{
+    position: relative;
+    top: 4vh;
+    width: 12vw;
+    height: 16vh;
+    padding: 0.25rem;
+    background-color: burlywood;
+    position: absolute;
+    display: none;
+}
+
+
+#button-div
+{  
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    > button
+    {
+        width: 12vw;
+        border: none;
+        background: transparent;
+    }
+    > button:hover
+    {
+        opacity: 0.8;
+        transform: scale(1.10);
+    }
+}
+
